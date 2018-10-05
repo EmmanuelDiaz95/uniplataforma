@@ -48,7 +48,7 @@
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="registro.html">Inicia Sesión</a>
+              <a class="nav-link" href="perfil.html">Inicia Sesión</a>
             </li>
           </ul>
         </div>
@@ -71,22 +71,51 @@
 
     <!-- Main Content -->
     <div class="container">
-      <div class="row info">
+      <div class="row info ">
         <div class="col-4 perfil-1 text-center">
-          <img src="img/man.ico" alt="">
+          <img style="padding-top: 10%;" src="img/man.ico" alt="">
           <h6 style="padding-top: 8px">Usuario de Prueba</h6>
           <h6 style="color:blue">@SampleUser</h6>
+          <a href="index.html">
           <button type="button" class="btn btn-outline-info">sign Out</button>
-          <h6 style="padding-top: 35px;">Perfil</h6>
+          </a>
+          <br>
+          <br>
+          <hr>
+          <h6>Perfil</h6>
           <a href="#" style="text-decoration: none;">
-            <h4 id="perfil" class="text-left" onmouseover="ponerColor()" onmouseout="regresarColor()" class="text-left" style="background: #00aadc; font-size: 1.3rem; font-weight: normal; padding-left: 30px; height: 40px; width: 85%;">Mi perfil</h4>
+            <h4 id="perfil" class="text-left" onmouseover="ponerColor()" onmouseout="regresarColor()" style="background: #00aadc; font-size: 1.3rem; font-weight: normal; padding-left: 30px; height: 40px; width: 85%;">Mi perfil</h4>
           </a>
           <a style="text-decoration: none;" href="#">
-            <h4 class="text-left" style="font-size: 1.3rem; font-weight: normal; padding-left: 30px; height: 40px; width: 85%; color: black;">Ajustes de Cuenta</h4>
+            <h4 id="boton1" class="text-left masBotones" onmouseover="ponerColor1()" onmouseout="regresarColor2()" style="font-size: 1.3rem; font-weight: normal; padding-left: 30px; height: 40px; width: 85%; color: black;">Ajustes de Cuenta</h4>
+          </a>
+          <a style="text-decoration: none;" href="#">
+            <h4 id="boton2" class="text-left masBotones" onmouseover="ponerColor3()" onmouseout="regresarColor4()" style="font-size: 1.3rem; font-weight: normal; padding-left: 30px; height: 40px; width: 85%; color: black;">Eventos</h4>
+          </a>
+          <a style="text-decoration: none;" href="#">
+            <h4 id="boton3" class="text-left masBotones" onmouseover="ponerColor5()" onmouseout="regresarColor6()" style="font-size: 1.3rem; font-weight: normal; padding-left: 30px; height: 40px; width: 85%; color: black;">Amigos <span style="margin-left: 30%; color: #00aadc">17</span></h4>
           </a>
         </div>
         <div class="col-8 perfil-2">
-
+          <div class="card" style="width: 100%; margin-top: 2%; height: 32.5rem;">
+            <div class="card-body">
+              <h5 class="card-title" style="font-weight: normal">Mi Perfil</h5>
+              <br>
+              <h6 class="text-muted">Esta información se mostrará en <a style="text-decoration:none; color: #00aadc" href="#">tu perfil</a> y en tus publicaciones.</h6>
+              <form class="" action="index.html" method="post">
+                <div>
+                  <h5 style="font-size: 1.3rem">Nombre(s)</h5>
+                  <input class="form-control" type="text" name="" placeholder="Ingrese nombre" value="Usuario">
+                </div>
+              </form>
+              <br>
+              <div>
+                <h5 style="font-size: 1.3rem">Apellido(s)</h5>
+                <input class="form-control" type="text" name="" placeholder="Ingrese Apellido(s)" value="de Prueba">
+              </div>
+            </form>
+            </div>
+        </div>
         </div>
       </div>
     </div>

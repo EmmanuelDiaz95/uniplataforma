@@ -14,7 +14,7 @@
  }
  .perfil-1
  {
-   border: 2px solid red;
+   border-right: 1px solid #c1c1c1;
    height: 100%;
  }
  .perfil-1 h4
@@ -30,9 +30,14 @@
  .perfil-2
  {
    height: 100%;
-   border: 2px solid blue;
  }
 .info button
 {
    padding: 3px 13px;
+}
+.info
+{
+  background: #e9eff3;
+  margin-top: -3%;
+  border: 3px solid #f4f9fd;
 }
