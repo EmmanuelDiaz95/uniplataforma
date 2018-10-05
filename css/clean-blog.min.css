@@ -8,6 +8,10 @@
    margin-top: 3px;
    height: 29px
  }
+ .navbar
+ {
+   margin-right: 38%;
+ }
  .perfil-1 a:hover
  {
      color: hotpink;
@@ -40,4 +44,15 @@
   background: #e9eff3;
   margin-top: -3%;
   border: 3px solid #f4f9fd;
+  height: 37rem;
+}
+.btn2
+{
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+.container
+{
+  margin-left: %;
 }
