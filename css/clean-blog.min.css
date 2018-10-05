@@ -7,3 +7,18 @@
  {
    margin-top: 3px;
  }
+ .perfil-1
+ {
+   border: 2px solid red;
+   height: 100%;
+ }
+ .perfil-1 img
+ {
+   width: 40%;
+ }
+
+ .perfil-2
+ {
+   height: 100%;
+   border: 2px solid blue;
+ }
