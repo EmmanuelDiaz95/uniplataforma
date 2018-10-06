@@ -30,3 +30,8 @@ const regresarColor6 = () =>
 {
   document.getElementById("boton3").style.background = "#e9eff3";
 }
+const mandarAlerta = () =>
+{
+  alert("Tus datos fueron registrados con éxito =)")
+  document.location.href='perfil.html';
+}
